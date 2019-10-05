@@ -31,21 +31,17 @@ $(function() {
       var $li = $("#listItem-" + data.id);
       $li.replaceWith(liHtml);
       $('.toggle').change(toggleTask);
-
     } );
   }
 
   $.get("/tasks").success( function( data ) {
     var htmlString = "";
-
     $.each(data, function(index,  task) {
       htmlString += taskHtml(task);
     });
     var ulTodos = $('.todo-list');
     ulTodos.html(htmlString);
-
     $('.toggle').change(toggleTask);
-
   });
 
 
@@ -57,6 +53,7 @@ $(function() {
         title: textbox.val()
       }
     };
+    $('.new-todo').val('');
     $.post("/tasks", payload).success(function(data) {
       var htmlString = taskHtml(data);
       var ulTodos = $('.todo-list');
