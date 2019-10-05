@@ -1,24 +1,17 @@
-# README
+# Todo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Todo is a single page app (SPA) with a focus on jQuery for its implemenetation.  
+  
+[View the deployed application](https://todo-kevin-northrup.herokuapp.com/)
+___
 
-Things you may want to cover:
+### Features:
+- Built using Ruby on Rails
+- TDD focused, using RSpec and FactoryBot gems
+- Utilizes RESTful JSON API to fetch and update
+- JavaScript and jQuery allow for dynamic udpates to the view
+- Simple HTML and CSS interface for minimal design
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+___
+### Screenshot:
+![Screenshot](todoster.png)
