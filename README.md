@@ -10,7 +10,7 @@ ___
 - TDD focused, using RSpec and FactoryBot gems
 - Utilizes RESTful JSON API to fetch and update
 - JavaScript and jQuery allow for dynamic udpates to the view
-- Simple HTML and CSS interface for minimal design
+- Simple HTML and CSS interface for minimalistic design
 
 ___
 ### Screenshot:
